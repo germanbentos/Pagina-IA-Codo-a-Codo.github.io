@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inconsolata:wght@200..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import 'animate.css';
+
+
+* {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, Helvetica;
+   background:-webkit-linear-gradient(90deg, #f3dfe3 10%, #dadbeb 90%);
+
+}
+
+.header {
+   width: 100%;
+   display: block;
+   
+}
+
+.nav{
+   height: 70px;
+   width: 100%;
+   background: linear-gradient(90deg, rgb(167, 103, 167),rgb(1, 1, 37));
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 3px;
+   padding-top: 37px;
+   border-bottom: 4px solid rgb(130, 23, 145);
+   box-shadow: 1px 2px 10px  rgb(102, 5, 81);
+}
+
+ul{
+   float: inline-start;
+   padding: 6px;
+   margin-right: 1px;
+   font-family: "Prompt";
+   font-size: 16px;
+   font-weight:400 ;
+
+}
+
+a{
+   text-decoration: none;
+   color: rgb(211, 208, 208);
+}
+a:hover{
+   border-radius: 3px;
+   background: linear-gradient(90deg, rgb(131, 6, 131),rgb(201, 46, 201));
+   padding: 6px;
+   text-decoration: underline;
+}
+.foto_ia{
+   width: 99%;
+   margin: 5px;
+   box-shadow: 5px 15px 20px  rgb(1, 1, 37);
+}
+.titulo_sistemas{
+   display: flex;
+   justify-content: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 55px;
+   color: rgb(68, 47, 18);
+}
+
+/* SECCION 1 */
+.seccion1{
+   display: flex;
+   justify-content: center;
+   margin-top: 15px;
+   
+}
+.cuadrado_s1{
+   padding: 15px;
+   margin: 10px;
+}
+.cuadrado_s1:hover{
+   background-color: rgb(248, 248, 247);
+   border: 1px solid rgb(253, 252, 252);
+  box-shadow: 5px 5px 20px rgb(192, 190, 190);
+  border-radius: 20px 80px;
+}
+.cuadrado_s1 h2 {
+   font-family: "rubik";
+   display: flex;
+   justify-content: center;
+   margin:10px ;
+   color: rgb(20, 20, 20);
+}
+
+audio{
+   margin-top: 20px;
+   position: relative;
+   left: 200px;
+}
+
+/* SECCION 2 */
+.seccion2{
+   margin-top: 10px;
+   margin: 7px;
+   width: 99%;
+   height: 455px;
+   display: flex;
+   justify-content: space-around;
+   background-image: url("https://itbrief.com.au/uploads/story/2023/07/04/GettyImages-1468068287.webp");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   box-shadow: 10px 30px 35px rgb(32, 144, 209);
+   border-radius: 55px;
+}
+.cuadrado_izq_s2 h2{
+   font-family: "rubik";
+   font-size: 28px;
+   text-decoration: underline;
+   padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  
+}
+.cuadrado_izq_s2 p{
+   display: flex;
+   justify-content: center;
+   padding: 0px 30px 5px 30px;
+   font-family: "Inconsolata";
+   font-size: 20px;
+   color: rgb(224, 220, 220);
+}
+.cuadrado_der_s2{
+   margin-right: 20px;
+   align-content: center;
+}
+
+/* SECCION 3 */
+.seccion3{
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   margin-top: 40px;
+}
+.red_neuronal{
+   display: flex;
+   flex-direction:row;
+}
+.red_neuronal img{   
+   display: flex;
+   justify-content: left;
+   height: 390px;
+   width: 400px;
+}
+.atomo img{
+   height: 190px;
+   width: 200px;
+   position: relative;
+   top: -64px;
+   left: 604px;
+}
+.cuadrado_der_s3{
+   display: flex;
+   flex-direction:column;  
+   width: 750px;
+   margin-right: 50px;
+   position: relative;
+   right: 90px;
+   top: 50px;
+}
+.cuadrado_der_s3 h2{
+  padding: 8px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "rubik";
+  font-size: 28px;
+}
+
+.cuadrado_der_s3 p{
+   border: 1px solid white;
+   border-width: 45px;
+   border-radius: 20px 80px;
+   background-color: white;
+   font-size: 20px;
+   font-family: "Inconsolata";
+}
+
+/* SECCION 4 */
+.seccion4{
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-around;
+}
+.cuadrado_izq_s4{
+   margin-left: 5px;
+   padding-top: 45px;
+   
+}
+.cuadrado_izq_s4 img{
+   border-radius: 80px;
+   height: 400px;
+   width: 550px;
+}
+.cuadrado_der_s4{
+   align-content: center;
+   padding-right: 180px;
+}
+.cuadrado_der_s4 h2{
+   margin: 12px 0px;
+}
+.cuadrado_der_s4 p{
+   line-height: 20px;
+}
+
+
+/* SECCION 5 */
+.seccion5{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+.cuadrado_der_s5{
+   margin-right: 110px;
+}
+.cuadrado_der_s5 img{
+   padding: 10px;
+   border-radius: 80px;
+   height: 400px;
+   width: 550px;
+}
+.cuadrado_izq_s5{
+   padding: 40px;
+   align-content: center;
+}
+.cuadrado_izq_s5 h2{
+   margin: 12px 0px;
+}
+.cuadrado_izq_s5 p{
+   line-height: 20px;
+}
+
+/* SECCION 6 */
+.seccion6{
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-around;
+   margin-bottom: 40px;
+}
+.cuadrado_izq_s6 img{
+   border-radius: 80px;
+   height: 400px;
+   width: 550px;
+}
+.cuadrado_der_s6{
+   align-content: center;
+   padding-right: 155px;
+}
+.cuadrado_der_s6 h2{
+   margin: 12px 0px;
+}
+.cuadrado_der_s6 p{
+   line-height: 20px;
+}
+.robot{
+   display: flex;
+   justify-content: center;
+}
+.robot img{
+   justify-content: center;
+}
+.chat{
+   display: flex;
+   justify-content: center;
+}
+.chat img{
+   justify-content: center;
+}
+
+/* SECCION 7 */
+.seccion7{
+   display: flex;
+   justify-content: space-around;
+   background: linear-gradient(90deg,rgb(22, 22, 88), rgb(78, 2, 62), rgb(94, 21, 84));
+   box-shadow: 5px 5px 35px;
+}
+.vectores1, .vectores2{
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.salesforce, .nvidia, .ibm{
+   height: 110px;
+   width: 150px;
+}
+#vector{
+   height: 150px;
+   width: 200px;
+}
+.titulo_vectores{
+   display: flex;
+   justify-content: center;
+}
+.titulo_vectores h2{
+   position: relative;
+   top: 27px;
+   font-size: 30px;
+   padding: 10px;
+   color: purple;
+   background:-webkit-linear-gradient(90deg, #f3dfe3 10%, #dadbeb 90%);
+   box-shadow: 3px 5px 15px black;
+   border: 3px solid rgb(131, 32, 131);
+   border-bottom: none;
+   
+}
+.robot{
+   display: flex;
+   justify-content: center;
+}
+.robot_ia{
+   width: 55rem;
+   height: 30rem;
+   margin-top: 79px;
+}
+
+/* FOOTER */
+
+.pie{
+   background: -webkit-linear-gradient(90deg, #f3dfe3 10%, #dadbeb 90%)
+}
+
+.log{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+  
+}
+
+span{
+   font-size: 23px;
+}
+
+.fb{
+   background: rgb(49, 93, 238);
+   padding: 8px;
+   border-radius: 50px;
+   color: white;
+}
+
+.tw{
+   background: rgb(79, 134, 236);
+   padding: 8px;
+   border-radius: 50px;
+   color: white;
+}
+.li{
+   background: rgb(7, 31, 167);
+   padding: 8px;
+   border-radius: 50px;
+   color: white;
+}
+.yt{
+   background: rgb(228, 12, 40);
+   padding: 8px;
+   border-radius: 50px;
+   color: white;
+}
+
+.header1{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   align-items: center;
+}
+
+
+.logotipo{
+   font-size: 18px;
+   color: rgb(86, 151, 236);
+}
+
+
+.seccion8{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 40px;
+}
+
+.seccion8 div{
+   display: flex;
+   flex-direction: column;
+   
+}
+
+div h2{
+   color: rgb(7, 7, 7);
+   display: flex;
+   justify-content: space-evenly;
+   gap: 40px;
+   padding: 10PX 0;
+} 
+
+.co, .ac, .in{
+   display: flex;
+   justify-content: space-evenly;
+   gap: 40px;
+   color: black;
+   text-decoration: none;
+   padding: 5px;
+  
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   border-radius: 50px;
+   gap: 10px;
+}
+input{
+   background: #f0f0f0;
+   border: solid 2px; 
+   padding: 7px ;
+}
+button{
+   padding: 10px 20px;
+   background:#f0f0f0 ;
+   color: rgb(86, 151, 236);;
+}
+
+.derechos{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   background: -webkit-linear-gradient(90deg, #dadbebe0 10%, #f3dfe3d0 90%);
+}
+
+
